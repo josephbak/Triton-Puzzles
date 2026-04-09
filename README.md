@@ -26,3 +26,15 @@ If you are into this kind of thing, this is 7th in a series of these puzzles.
 * https://github.com/srush/transformer-puzzles
 * https://github.com/srush/GPTworld
 * https://github.com/srush/LLM-Training-Puzzles
+
+## My Fork
+
+I'm working through these puzzles to build tiling and memory access intuition
+from the kernel level up. My background is in applied math and optimization,
+and I'm currently learning compiler engineering (MLIR, IREE, LLVM). I find
+that understanding how Triton's block/tile model maps to hardware memory
+hierarchy directly informs compiler lowering decisions — e.g. tile size
+heuristics, incomplete tile handling, and vectorization strategies.
+
+Puzzles are solved in `Triton-Puzzles.ipynb` with inline comments connecting
+each concept to compiler internals where relevant.
